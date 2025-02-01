@@ -17,7 +17,7 @@ import android.Manifest.permission.RECORD_AUDIO
 import android.Manifest.permission.WRITE_EXTERNAL_STORAGE
 import android.os.Build
 
-object PermissionConstants {
+object SimplePermissions {
     val AUDIO_PERMISSIONS = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU)
         arrayOf(READ_MEDIA_AUDIO)
     else arrayOf(READ_EXTERNAL_STORAGE, WRITE_EXTERNAL_STORAGE)
