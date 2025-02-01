@@ -8,7 +8,7 @@ android {
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.sina.simplepermission"
+        applicationId = "com.sina.simplepermission.app"
         minSdk = 26
         targetSdk = 35
         versionCode = 1

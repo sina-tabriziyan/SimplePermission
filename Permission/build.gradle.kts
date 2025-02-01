@@ -6,7 +6,7 @@ plugins {
 }
 
 android {
-    namespace = "com.sina.permission"
+    namespace = "com.sina.simplepermission.library"
     compileSdk = 35
 
     defaultConfig {
@@ -40,7 +40,7 @@ android {
                     from(components["release"])
                     groupId = "com.github.sina-tabriziyan"
                     artifactId = "SimplePermission"
-                    version = "1.0.0"
+                    version = "1.0.1"
                 }
             }
         }
